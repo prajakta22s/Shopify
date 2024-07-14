@@ -98,45 +98,49 @@ This is a feature-rich e-commerce web application built using React and its ecos
 
 ## File Structure
 
+```plaintext
 ecommerce-app/
 ├── public/
+│   ├── index.html
+│   ├── favicon.ico
 ├── src/
-│ ├── components/
-│ │ ├── Auth/
-│ │ │ ├── Login.js
-│ │ │ ├── Signup.js
-│ │ ├── Cart.js
-│ │ ├── Dashboard.js
-│ │ ├── Header.js
-│ │ ├── ProductDetail.js
-│ │ ├── ProductList.js
-│ │ ├── OrderSummary.js
-│ │ ├── OrderConfirmation.js
-│ ├── contexts/
-│ │ ├── AuthContext.js
-│ ├── redux/
-│ │ ├── features/
-│ │ │ ├── auth/
-│ │ │ │ ├── authSlice.js
-│ │ │ ├── cart/
-│ │ │ │ ├── cartSlice.js
-│ │ │ ├── product/
-│ │ │ │ ├── productSlice.js
-│ │ ├── store.js
-│ ├── styles/
-│ │ ├── globalStyles.js
-│ ├── test/
-│ │ ├── setup.js
-│ │ ├── components/
-│ │ │ ├── Header.test.js
-│ │ │ ├── Dashboard.test.js
-│ │ │ ├── Cart.test.js
-│ ├── App.js
-│ ├── index.js
-│ ├── App.test.js
+│   ├── components/
+│   │   ├── Auth/
+│   │   │   ├── Login.js
+│   │   │   ├── Signup.js
+│   │   ├── Cart.js
+│   │   ├── Dashboard.js
+│   │   ├── Header.js
+│   │   ├── ProductDetail.js
+│   │   ├── ProductList.js
+│   │   ├── OrderSummary.js
+│   │   ├── OrderConfirmation.js
+│   ├── contexts/
+│   │   ├── AuthContext.js
+│   ├── redux/
+│   │   ├── features/
+│   │   │   ├── auth/
+│   │   │   │   ├── authSlice.js
+│   │   │   ├── cart/
+│   │   │   │   ├── cartSlice.js
+│   │   │   ├── product/
+│   │   │   │   ├── productSlice.js
+│   │   ├── store.js
+│   ├── styles/
+│   │   ├── globalStyles.js
+│   ├── test/
+│   │   ├── setup.js
+│   │   ├── components/
+│   │   │   ├── Header.test.js
+│   │   │   ├── Dashboard.test.js
+│   │   │   ├── Cart.test.js
+│   ├── App.js
+│   ├── index.js
+│   ├── App.test.js
 ├── .env
 ├── package.json
 ├── README.md
+
 
 
 ## Contributing
