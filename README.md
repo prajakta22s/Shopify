@@ -2,6 +2,10 @@
 
 This is a feature-rich e-commerce web application built using React and its ecosystem. The application includes functionalities for product listing, product detail view, cart management, user authentication, and order placement.
 
+## Demo
+
+You can view the live demo of the application [here](https://shopify-beige-theta.vercel.app/login).
+
 ## Table of Contents
 
 - [Features](#features)
@@ -13,11 +17,25 @@ This is a feature-rich e-commerce web application built using React and its ecos
 
 ## Features
 
-- **Product Listing Page**: Displays products in a grid layout with pagination.
-- **Product Detail Page**: Shows detailed information about a product including images, description, price, and reviews.
-- **Shopping Cart**: Manages selected products, allows quantity updates, and calculates the total price.
-- **User Authentication**: Implements user registration and login functionality using Firebase Authentication.
-- **Order Placement**: Allows users to place an order with the products in their cart, shows order summary, and stores order details in Firebase.
+- Product Listing Page
+  - Fetch product data from a mock API.
+  - Display products in a grid layout with basic information (image, name, price).
+  - Implement pagination for product listing.
+- Product Detail Page
+  - Show detailed information about a product (images, description, price, reviews).
+  - Allow users to add the product to the cart.
+- Shopping Cart
+  - Implement a shopping cart to manage selected products.
+  - Allow users to update the quantity of products in the cart.
+  - Calculate and display the total price.
+- User Authentication
+  - Implement user registration and login functionality.
+  - Use Firebase Authentication or another authentication service.
+  - Protect certain routes to be accessible only to authenticated users.
+- Order Placement
+  - Allow users to place an order with the products in their cart.
+  - Show order summary before finalizing the purchase.
+  - Store order details in Firebase or another backend service.
 
 ## Technologies Used
 
